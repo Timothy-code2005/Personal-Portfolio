@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-image: linear-gradient(brown, green);
+    }
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align: center;"> BSIT-4  Image Gallery</h2>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="BSIT-4 1.jpg" alt="bsit-4-1" width="300" height="300">
+    </a>
+    <div class="desc">Ganda talaga ng crush ko</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    
+      <img src="BSIT-4 2.jpg" alt="bsit-4-2" width="300" height="300">
+    </a>
+    <div class="desc">Sabayang Pagbigkas 1</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="BSIT-4 3.jpg" alt="bsit-4-3" width="300" height="300">
+    </a>
+    <div class="desc">Sabayang Pagbigkas 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="BSIT-4 4.jpg" alt="bsit-4-4" width="300" height="300">
+    </a>
+    <div class="desc">Sabayang Pagbigkas 3</div>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
